@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.sql.*;
 
 public class Database {
-    String databaseFullPath;
+    final String databaseFullPath;
 
     public Database(String databaseName) {
         databaseFullPath = "DateReminder/database/" + databaseName;
